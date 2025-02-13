@@ -1,14 +1,27 @@
 .titulo{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-bottom: 100px;
-    margin-top: 100px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    color: rgb(85, 78, 12);
+    text-shadow: 2px 2px 4px #e6e93796;
 }
 
-.celda{
+.celdas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 80px;
     height: 80px;
-    border: 2px solid;
+    border: 2px solid saddlebrown;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgba(102, 93, 10, 0.568);
+    border: none;
+    box-shadow: 10px 5px rgba(132, 153, 38, 0.363);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
 }
 
 #celdaContenedores{
@@ -16,9 +29,23 @@
     grid-template-columns: repeat(3,auto);
     width: 250px;
     margin: auto;
-    background-color: rgba(72, 6, 88, 0.5);
+    gap: 14px;
 }
 
 body{
-    background-color: rgba(196, 177, 194, 0.596);
+    background-image: url(../Imagen/background-6650677_960_720.jpg);
+    background-size: cover;
+}
+
+.boton{
+    margin-top: 50px;
+    margin-left: 44%;
+    background: none;
+    background-color: #000000b6;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: monospace; 
 }
