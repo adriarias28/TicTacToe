@@ -1,10 +1,10 @@
 .titulo{
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-bottom: 80px;
     margin-top: 50px;
-    color: rgb(85, 78, 12);
-    text-shadow: 2px 2px 4px #e6e93796;
+    color:  rgba(65, 78, 18, 0.774);
+    text-shadow: 2px 2px 4px #02020175;
 }
 
 .celdas{
@@ -22,8 +22,12 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 35px;
     color: rgb(255, 255, 255);
+    
 }
-
+.celdas:hover {
+    background-color: rgba(104, 93, 30, 0.829);
+    transform: scale(1.1, 1.1);
+}
 #celdaContenedores{
     display: grid;
     grid-template-columns: repeat(3,auto);
@@ -37,15 +41,23 @@ body{
     background-size: cover;
 }
 
-.boton{
+#boton{
     margin-top: 50px;
     margin-left: 44%;
     background: none;
-    background-color: #000000b6;
+    background-color: #e98f28a1;
     border: none;
-    color: white;
+    color:rgb(65, 78, 18);
     padding: 16px 32px;
     font-size: 16px;
     cursor: pointer;
-    font-family: monospace; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 30px
+}
+
+.ganes{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(65, 78, 18);
+    text-shadow: 2px 2px 4px #02020196;
 }
